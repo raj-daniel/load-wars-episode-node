@@ -1,5 +1,5 @@
 import express from 'express';
-import { getResponse } from './service.js';
+import { getResponse } from '../service/service.js';
 
 const router = express.Router();
 

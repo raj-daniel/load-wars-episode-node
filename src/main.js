@@ -1,8 +1,8 @@
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 import express from 'express';
-import router from './routes.js';
-import https from 'https';
-import fs from 'fs';
+import router from './route/routes.js';
+import './utilities/postgress.js';
+import './utilities/redis.js';
 
 const app = express();
 const port = 3000;
